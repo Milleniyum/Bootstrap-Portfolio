@@ -132,6 +132,11 @@ row {
     border-bottom: 0;
 }
 
+.project h3:hover {
+    color: black;
+    cursor: pointer;
+}
+
 footer {
     border-top: 8px solid #4aaaa5;
     background: #666666;
