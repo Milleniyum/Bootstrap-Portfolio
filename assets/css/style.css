@@ -9,6 +9,8 @@ body {
     background-image: url("../images/retina_wood.png");
 }
 
+/* Header Container */
+
 #main_header {
     position: fixed;
     top: 0;
@@ -96,10 +98,14 @@ p {
     line-height: 30px;
 }
 
+/* Contact Container */
+
 .contact_submit {
     color: #ffffff;
     background: #4aaaa5;
 }
+
+/* Portfolio Container */
 
 .project {
     float:left;
@@ -108,15 +114,11 @@ p {
     padding: 0;
 }
 
-row {
-    float: left;
-}
-
 .project img {
     width: 100%;
 }
 
-.project h3 {
+.project h3, .project-link {
     position: absolute;
     bottom: 15px;
     width: 100%;
@@ -132,10 +134,13 @@ row {
     border-bottom: 0;
 }
 
-.project h3:hover {
+.project h3:hover, .project-link:hover {
     color: black;
     cursor: pointer;
+    text-decoration: none;
 }
+
+/* Footer Container */
 
 footer {
     border-top: 8px solid #4aaaa5;
